@@ -7,7 +7,7 @@ interface WeatherData {
 }
 
 const Home = () => {
-  const [city, setCity] = useState('Dilshaj infotech'); // Default city
+  const [city, setCity] = useState('Dilshaj '); // Default city
   const [weather, setWeather] = useState<WeatherData | null>(null);
   const [error, setError] = useState<string | null>(null);
 
